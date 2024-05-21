@@ -50,7 +50,6 @@
 // console.log(text.split(' ').join(' '));
 
 
-// const students = ['Ibrahim', 'Aysu', 'Tural', 'Ayxan', 'Elshen', 'Ruslan', 'Elnur', 'Isa', 'Elmir', 'Ferhad', 'Ramil']
 
 // Array methods - map,filter
 // console.log(students.map((student, index) => student));
@@ -92,30 +91,31 @@
 // 14.Multiple only Female age
 
 
-const students = [
-    {
-        name: 'Aysu',
-        age: 20,
-        gender: 'Female'
-    },
-    {
-        name: 'Ibrahim',
-        age: 21,
-        gender: 'Male'
-    },
-    {
-        name: 'Ramil',
-        age: 30,
-        gender: 'Male'
-    },
-]
-let a=1
-console.log(students.map((student) => a *= student.age));
-console.log(a);
+// const students = [
+//     {
+//         name: 'Aysu',
+//         age: 20,
+//         gender: 'Female'
+//     },
+//     {
+//         name: 'Ibrahim',
+//         age: 21,
+//         gender: 'Male'
+//     },
+//     {
+//         name: 'Ramil',
+//         age: 30,
+//         gender: 'Male'
+//     },
+// ]
 
-let b = 0
-console.log(students.filter((student) => student.gender == 'Male' ).map((item) => b+= item.age) );
-console.log(b);
+// let a = 1
+// console.log(students.map((student) => a *= student.age));
+// console.log(a);
+
+// let b = 0
+// console.log(students.filter((student) => student.gender == 'Male').map((item) => b += item.age));
+// console.log(b);
 
 // console.log(students.map((_, index) => index));
 // console.log(students[0].name);
@@ -127,6 +127,39 @@ console.log(b);
 // console.log(a);
 // console.log(c);
 // console.log(b);
-let sum = 0
-students.map((_, index) => sum += index)
-console.log(sum);
+// let sum = 0
+// students.map((_, index) => sum += index)
+// console.log(sum);
+
+const students = ['Ibrahim', 'Aysu', 'Tural', 'Ayxan', 'Elshen', 'Zaur', 'Ruslan', 'Elnur', 'Isa', 'Elmir', 'Ferhad', 'Ramil']
+// const numbers = [9, 2, 4, 11, 12, 22, 8, 9, 6, 1]
+// numbers.sort((a, b) => a - b)  //asc
+// numbers.sort((a, b) => b - a)  //desc
+
+students.sort().reverse()  //asc
+// students.sort((a, b) => a.localeCompare(b))  //asc
+
+
+// students.sort((a, b) => b.localeCompare(a))  //desc
+// students.reverse().reverse()
+console.log(students);
+// numbers.sort((a, b) => {
+//     if (a > b) {
+//         return 1
+//     } else if (a < b) {
+//         return -1
+//     } else {
+//         return 0
+//     }
+// })
+
+// console.log(numbers);
+
+
+// console.log(numbers.filter((number, index) => number > 3));
+// console.log(numbers.find((number, index) => number > 3));
+
+
+// console.log(numbers.findIndex((index) => index > 3)); //9
+// console.log(numbers.findLastIndex((index) => index > 3)); //6
+
