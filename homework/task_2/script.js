@@ -6,8 +6,67 @@ const arr1 = [9, 1, 5, 8, 9, 9, 3, 22, 11, 12, 32, 8]
 // 5.Remove four numbers in front of arr1(shift)
 
 
-////////////// TASK 7 //////////////
-const arr2 = ["Murad", "Anar", "Rufet", 'Anar', 'Gulshen', 'Nermin', "Ilkin", "Fuad", "Anar"]
+// let text = 'ulfat'
+
+// text.replace('u', 'U')
+// ////////////// TASK 7 //////////////
+// const arr2 = ["Murad", "Anar", "Rufet", 'Anar', 'Gulshen', 'Nermin', "Ilkin", 'Gulshen', "Fuad", "Anar"]
+// const result = arr2.map(item => item.replaceAll('Gulshen', 'Rovshen'))
+// const result2 = arr2.map(item => {
+//     if (item === 'Gulshen') {
+//         return item = 'Rovshen'
+//     } else {
+//         return item
+//     }
+// })
+
+// let age = 17
+
+// if (age >= 18) {
+//     console.log(1);
+// } else if (age === 20) {
+//     console.log(2);
+// } else {
+//     console.log(3);
+// }
+
+
+// age >= 18 ?
+//     console.log(1)
+//     : age === 18 ? console.log(2) : console.log(3);
+
+// age >= 18 ? console.log(1)
+//     : age === 18 ? console.log(2)
+
+// false && console.log('true');
+// let age = 17;
+
+// if (age >= 18) {
+//     console.log(1);
+// } else if (age === 20) {
+//     console.log(2);
+// } else {
+//     console.log(3);
+// }
+
+// Ternary operator ?-if, :-else
+// age >= 18 ? console.log(1) : age === 18 ? console.log(2) : console.log(3);
+// age >= 18 ? console.log(1) : console.log(2);
+
+// false && console.log('true');
+// console.log(5 && 9 && null && 'undefined' && 9 && true && 'false');
+
+// console.log(0 || undefined || null || 'undefined' || 9 || true || 'false');
+
+// console.log(false && 77 || undefined && 0 || true && null || 'ulfat');
+
+
+
+// Ternary operator ?-if, :-else
+
+
+// console.log('result', result)
+// console.log('result2', result2)
 // 1.Console values from "Rufet" to "Fuad"
 // 2.Change Gulshen to Rovshen 
 // 3.Console each name with map
@@ -96,60 +155,60 @@ const obj = {
 
 ///////////// TASK 12//////////////
 
-let arr2 = [
-    {
-        name: 'test',
-        key: 1
-    },
-    {
-        name: 'task',
-        key: 2
-    },
-    {
-        name: 'tanqo',
-        key: 3
-    },
-    {
-        name: 'like',
-        key: 4
-    },
-    {
-        name: 'task',
-        key: 5
-    },
-    {
-        name: 'trust',
-        key: 6
-    },
-    {
-        name: 'test',
-        key: 7
-    },
-    {
-        name: 'last',
-        key: 8
-    },
-    {
-        name: 'tanqo',
-        key: 9
-    },
-    {
-        name: 'elephant',
-        key: 10
-    },
-    {
-        name: 'love',
-        key: 11
-    },
-    {
-        name: 'small',
-        key: 12
-    },
-    {
-        name: 'little',
-        key: 13
-    },
-]
+// let arr2 = [
+//     {
+//         name: 'test',
+//         key: 1
+//     },
+//     {
+//         name: 'task',
+//         key: 2
+//     },
+//     {
+//         name: 'tanqo',
+//         key: 3
+//     },
+//     {
+//         name: 'like',
+//         key: 4
+//     },
+//     {
+//         name: 'task',
+//         key: 5
+//     },
+//     {
+//         name: 'trust',
+//         key: 6
+//     },
+//     {
+//         name: 'test',
+//         key: 7
+//     },
+//     {
+//         name: 'last',
+//         key: 8
+//     },
+//     {
+//         name: 'tanqo',
+//         key: 9
+//     },
+//     {
+//         name: 'elephant',
+//         key: 10
+//     },
+//     {
+//         name: 'love',
+//         key: 11
+//     },
+//     {
+//         name: 'small',
+//         key: 12
+//     },
+//     {
+//         name: 'little',
+//         key: 13
+//     },
+// ]
 
 
 //QEYD Bu tasklarda arr2 istifade edilecekdir
@@ -163,3 +222,6 @@ let arr2 = [
 // 23 arr2 de en boyuk "key" - i olan obyektin "name"-i ni tapin
 // 24 arr2 de terkibinde 2 'L' herfi olan obyekt(ler)in index(ler)ini tapin.
 // 25 arr2 de terkibinde 2 't' herfi olan obyekt(ler)in key(ler)ini tapin.
+
+
+// undefined,null,0,false,'',NaN
