@@ -38,7 +38,7 @@ const group5 = [20, 32, 16, 30, 20, 19, 18, 25, 19, 36, 36]  //CS407
 
 
 
-// function calcAvg(anyGroup) {
+// const calcAvg(anyGroup) {
 //     let sum = 0
 //     anyGroup.map(item => sum += item)
 //     let count = Math.ceil(sum / anyGroup.length)
@@ -92,7 +92,7 @@ const group5 = [20, 32, 16, 30, 20, 19, 18, 25, 19, 36, 36]  //CS407
 const arr1 = [5, 8, 2, 11, 9]
 const arr2 = [50, 8, 25, 12, 19]
 
-// 1.calcMult of arrays in function
+// 1.function name- 'calcMult' mult of arrays in function
 // 2.get only odd values 
 // 3.get only even values
 
@@ -118,6 +118,7 @@ const users = [
     },
 ]
 
+
 // 4.write function that return name of users
 // 5.write function that return gender of users
 // 6.write function that return age of users
@@ -126,4 +127,20 @@ const users = [
 
 
 // 9.write function that take firstName,lastName,age as parametr then call and
-//  give these values to function(age can be empty,give default value)
+//  give these values to function(age can be empty,give default value
+
+// convert all functions to arrow function
+
+// function getUser(firstName, lastName, age) {
+//     if (age) {
+//         return `${firstName} / ${lastName} / ${age}`
+//     } else {
+//         return `${firstName} / ${lastName}`
+//     }
+// }
+
+// console.log(getUser('Aysu', 'Aysulu', 20));
+// console.log(getUser('Ulfat', 'Ulfatlu'));
+// console.log(getUser('Ayxan', 'Ayxanlu'));
+
+
