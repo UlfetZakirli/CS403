@@ -169,39 +169,6 @@
 // students.map(item => console.log(item))
 // students.forEach(item => console.log(item))
 
-const users = [
-    {
-        id: 1,
-        name: 'Isa',
-        age: 19,
-        gender: 'male'
-    },
-    {
-        id: 2,
-        name: 'Aysu',
-        age: 20,
-        gender: 'female'
-    },
-    {
-        id: 4,
-        name: 'Ramil',
-        age: 13,
-        gender: 'male'
-    },
-    {
-        id: 5,
-        name: 'Tural',
-        age: 33,
-        gender: 'male'
-    },
-    {
-        id: 6,
-        name: 'Ayxan',
-        age: 25,
-        gender: 'male'
-    },
-]
-
 
 // const main = document.querySelector('#myDiv')
 
@@ -283,4 +250,53 @@ const numbers = [4, 7, 8, 12, 22, 9, 12]
 // 8.Sum values of numbers (for)
 // 9.Mult values of numbers (for_of)
 // 10.Show all values except 12 (for/continue)
+// 11.Sum values of numbers (reduce)
+
+const users = [
+    {
+        id: 1,
+        name: 'Isa',
+        age: 19,
+        gender: 'male'
+    },
+    {
+        id: 2,
+        name: 'Aysu',
+        age: 20,
+        gender: 'female'
+    },
+    {
+        id: 4,
+        name: 'Ramil',
+        age: 13,
+        gender: 'male'
+    },
+    {
+        id: 5,
+        name: 'Tural',
+        age: 33,
+        gender: 'male'
+    },
+    {
+        id: 6,
+        name: 'Ayxan',
+        age: 25,
+        gender: 'male'
+    },
+]
+
+// 12.Sum age of users (reduce)
+// 13.Mult age of users (reduce)
+
+const user = {
+    id: 1,
+    name: 'Elnur',
+    surname: 'Elnurlu',
+    age: 19
+}
+// 14.Console keys of user(for_in)
+// 14.Console values of user(for_in)
+
+
+
 
