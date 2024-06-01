@@ -294,9 +294,8 @@ const user = {
     surname: 'Elnurlu',
     age: 19
 }
+
 // 14.Console keys of user(for_in)
 // 15.Console values of user(for_in)
-
-
 
 

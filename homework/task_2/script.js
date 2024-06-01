@@ -9,7 +9,7 @@ const arr1 = [9, 1, 5, 8, 9, 9, 3, 22, 11, 12, 32, 8]
 // let text = 'ulfat'
 
 // text.replace('u', 'U')
-// ////////////// TASK 7 //////////////
+// ////////////// TASK 6 //////////////
 // const arr2 = ["Murad", "Anar", "Rufet", 'Anar', 'Gulshen', 'Nermin', "Ilkin", 'Gulshen', "Fuad", "Anar"]
 // const result = arr2.map(item => item.replaceAll('Gulshen', 'Rovshen'))
 // const result2 = arr2.map(item => {
@@ -77,7 +77,7 @@ const arr1 = [9, 1, 5, 8, 9, 9, 3, 22, 11, 12, 32, 8]
 
 
 
-////////////// TASK 8 //////////////
+////////////// TASK 7 //////////////
 const arr3 = ["9", 10, 100, 11, 'true', 'undefined', true, null, 'something', false]
 // 1.Show only numbers
 // 2.Show only true values
@@ -137,15 +137,32 @@ const obj = {
 // 3) Alinan yeni arrayi stringe cevirin(join)
 
 
-// let arr = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2, 5, 6, 3, 7, 3, 7]
+let arr = [8, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2, 5, 6, 3, 7, 3, 7]
 
 // QEYD - Bu tasklarda "arr" arrayindan istifade edilecekdir.....
 
 //4) Yuxaridaki arrayda 5 reqeminin nece defe tekrarlandigini tapin
+// console.log(arr.filter(item => item === 5).length);
+
+// let count = 0
+// arr.map((item) => {
+//     if (item === 5) {
+//         count++
+//     }
+// })
+// console.log('count', count)
+// let result = arr.reduce((acc, prev) => prev === 5 ? ++acc : acc, 0)
+// console.log('result', result)
 //5) Yuxaridaki arraydaki butun reqemlerin cemini tapin
 //6) arrayda tekrar olunan reqemleri artan sira ile duzun
+// console.log([...new Set(arr)]);
+// console.log(Array.from(new Set(arr)));
+// console.log(arr.filter((item, index, innerArr) => innerArr.indexOf(item) === index));
 //7) arraydaki en boyuk reqemi tapin ve nece defe tekrarlandigini gosterin(Math.max)
 //8) Adinizdaki herflerin sayini tapin ve hemin sayin arrayda olub olmamasini yoxlayin Meselen Ulfat adinda 5 herf var ve 5 arrayda var(includes)
+let nameLength = 'Ibrahim'.length
+console.log(arr.includes(nameLength));
+
 //9) arraydaki ilk 3 e bolunende qaliqda 2 alinan reqemi ve hemin reqemin arraydaki indexini tapin
 //10) arraydaki en boyuk reqemin ilk indexini tapin
 //11) 4 reqeminin arrayin hansi indexlerinde oldugunu gosterin
@@ -153,62 +170,91 @@ const obj = {
 //13) "arr" - arrayindan reqemleri 2 den boyuk olan yeni array yaradin ve alinmish arrayla "arr" arrayinin uzunluqlari ferqini hesablayin
 //14) 7 reqeminin indexleri cemini tapin.
 
+// let a = 8
+// let b = a
+// b = 9
+// console.log('a', a)
+// console.log('b', b)
+
+// const obj1 = {
+//     age: 33
+// }
+
+// const obj2 = {...obj1}
+// obj2.age = 24
+// console.log('obj1', obj1)
+// console.log('obj2', obj2)
+
+// console.log(typeof null);
+// console.log(typeof undefined);
+
+
+// console.log(Number(null));
+// console.log(Number(undefined));
+
+// let page = null
+// console.log(page);
+// falsy: 0, '', NaN, undefined, false, null
+
+// if (-3243243243243) {
+
+// }
 ///////////// TASK 12//////////////
 
-// let arr2 = [
-//     {
-//         name: 'test',
-//         key: 1
-//     },
-//     {
-//         name: 'task',
-//         key: 2
-//     },
-//     {
-//         name: 'tanqo',
-//         key: 3
-//     },
-//     {
-//         name: 'like',
-//         key: 4
-//     },
-//     {
-//         name: 'task',
-//         key: 5
-//     },
-//     {
-//         name: 'trust',
-//         key: 6
-//     },
-//     {
-//         name: 'test',
-//         key: 7
-//     },
-//     {
-//         name: 'last',
-//         key: 8
-//     },
-//     {
-//         name: 'tanqo',
-//         key: 9
-//     },
-//     {
-//         name: 'elephant',
-//         key: 10
-//     },
-//     {
-//         name: 'love',
-//         key: 11
-//     },
-//     {
-//         name: 'small',
-//         key: 12
-//     },
-//     {
-//         name: 'little',
-//         key: 13
-//     },
-// ]
+let arr2 = [
+    {
+        name: 'test',
+        key: 1
+    },
+    {
+        name: 'task',
+        key: 2
+    },
+    {
+        name: 'tanqo',
+        key: 3
+    },
+    {
+        name: 'like',
+        key: 4
+    },
+    {
+        name: 'task',
+        key: 5
+    },
+    {
+        name: 'trust',
+        key: 6
+    },
+    {
+        name: 'test',
+        key: 7
+    },
+    {
+        name: 'last',
+        key: 8
+    },
+    {
+        name: 'tanqo',
+        key: 9
+    },
+    {
+        name: 'elephant',
+        key: 10
+    },
+    {
+        name: 'love',
+        key: 11
+    },
+    {
+        name: 'small',
+        key: 12
+    },
+    {
+        name: 'little',
+        key: 13
+    },
+]
 
 
 //QEYD Bu tasklarda arr2 istifade edilecekdir
@@ -222,6 +268,11 @@ const obj = {
 // 23 arr2 de en boyuk "key" - i olan obyektin "name"-i ni tapin
 // 24 arr2 de terkibinde 2 'L' herfi olan obyekt(ler)in index(ler)ini tapin.
 // 25 arr2 de terkibinde 2 't' herfi olan obyekt(ler)in key(ler)ini tapin.
+// let result = arr2.filter((item) => item.name.toLowerCase().split('t').length - 1 === 2)
+// console.log('result', result)
 
+// // undefined,null,0,false,'',NaN
 
-// undefined,null,0,false,'',NaN
+// console.log('referance'.split('e').length - 1);
+
+// console.log('UTlfat'.match(/t/g));

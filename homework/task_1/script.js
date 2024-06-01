@@ -12,8 +12,10 @@
 // 5.Console the remainder(%) when 17 is divided by 12.
 
 // 6.Create a varibale called "city name" (camelCase). Assign value Baku, then call variable again
-//  and reassign value Gence,console result.
-
+//  and reassign value Gence, console result.
+let cityName = 'Baku'
+cityName = 'Gence'
+console.log(cityName);
 
 
 ////// TASK 2 //////////////
