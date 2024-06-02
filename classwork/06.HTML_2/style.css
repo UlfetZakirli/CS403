@@ -10,7 +10,8 @@ button {
     color: #fff;
     height: 40px;
 }
-button:disabled{
+
+button:disabled {
     background-color: gray;
     cursor: not-allowed;
 }
@@ -20,13 +21,13 @@ h1 {
     justify-content: center;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-img{
+img {
     width: 600px;
     height: 500px;
 }
