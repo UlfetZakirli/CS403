@@ -12,6 +12,7 @@ button {
 }
 button:disabled{
     background-color: gray;
+    cursor: not-allowed;
 }
 
 h1 {
