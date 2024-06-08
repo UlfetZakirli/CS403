@@ -6,10 +6,10 @@ const checkbox = document.querySelector('input[type=checkbox]')
 const btn = document.querySelector('#btn')
 const form = document.querySelector('form')
 
-
 // DOM - Document Object Model
 // . - class
 // # - id
+
 const users = []
 
 form.addEventListener('submit', (e) => {
@@ -29,7 +29,6 @@ username.addEventListener('input', triggerInput)
 email.addEventListener('input', triggerInput)
 password.addEventListener('input', triggerInput)
 checkbox.addEventListener('input', triggerInput)
-
 
 function triggerInput() {
     if (username.value.length >= 5 && email.value && password.value && checkbox.checked) {
