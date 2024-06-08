@@ -1,0 +1,24 @@
+// 1.Create Table called "Students" and add these columns ("StudentID","firstName",'lastName','age','university','city').
+// 2.Add all CS403 students to "Students" table.
+// 3.Add yourselft twice
+// 4.Execute All students
+// 5.Execute only age column
+// 6.Execute only firstName and lastName columns
+// 7.Execute students where first name start with "T" or "A"
+// 8.Execute all students where firstName NOT equal "your name"
+// 9.Execute students where second latter starts with 'U' in firstName
+// 10.Update city to 'Rome' where StudentID is equal 2 and 3
+// 11.Execute all students where age greater than 20
+// 12.Order by age(Sort) | ASC
+// 13.Order by firstName | DESC
+// 14.Execute only unique students (using DISTINCT)
+// 15.Sum all students' age
+// 16.Find youngest student
+// 17.Find eldest student
+// 18.Count columns
+// 19.Avg students' age
+// 20.Delete student where StudentID is equal 5
+// 21.Execute students where firstName='Ayxan' or firstName='Isa' (using IN operator)
+// 22.Execute students where age between 22 and 29
+// 23.Select Top 4 students
+// 24.Delete Students table

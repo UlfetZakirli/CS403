@@ -49,9 +49,9 @@ app.post('/students', (req, res) => {
 })
 
 
-db.connect(process.env.DATA_BASE_URL)
+// db.connect(process.env.DATA_BASE_URL)
 
-const PORT = process.env.MAIN_PORT || process.env.EXTRA_PORT
+// const PORT = process.env.MAIN_PORT || process.env.EXTRA_PORT
 
 app.listen(PORT, () => console.log(`Server is running on: http://localhost:${PORT}`.italic.red))
 
